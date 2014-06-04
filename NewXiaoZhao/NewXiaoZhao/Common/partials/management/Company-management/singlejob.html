@@ -1,0 +1,48 @@
+<div ng-controller="singlejob" id="single">
+
+	<div class="btn-group" ng-switch on="status">
+		<button class="btn btn-primary" ng-click="edit()" ng-switch-when="normal">修改</button>
+		<button class="btn btn-primary" ng-click="save(items)" ng-switch-when="edit">保存</button>
+	</div>
+	<div class="request" ng-repeat="key in ResourceURLs.wordList">
+		<div class="row-fluid">
+			<div class="span3 request-title">
+				<p>{{ ResourceURLs.items[key] }}</p>
+			</div>
+		</div>
+		
+		<div ng-switch on="status">
+			<span class="request-value" ng-switch-when="normal"> {{ items[key] }}</span>
+			<input class="span4" ng-model="items[key]" ng-value="items[key]" ng-switch-when="edit" type="text" />
+		</div>
+	</div>
+
+	<div class="request" >
+		<div class="row-fluid">
+			<div class="span3 request-title">
+				<p>{{ ResourceURLs.items['money'] }}</p>
+			</div>
+		</div>
+		
+		<div ng-switch on="status">
+			<span class="request-value" ng-switch-when="normal"> {{ items['money'] }}</span>
+			<select name="select" ng-switch-when="edit" ng-options="opts for opts in ResourceURLs.money" ng-model="items['money']">
+			</select>
+		</div>
+	</div>
+
+	<div class="alert alert-info">
+		<p><strong>{{ ResourceURLs.items['statement'] }}</strong>  推荐分为三个部分填写 ： 岗位介绍、职位要求、薪酬福利</p>
+		<p>请尽量使用本文本框提供的特别符号。否则，可能会导致系统无法正确记录您的文字</p>
+	</div>
+
+	<div class="request" >
+		
+		<div ng-switch on="status">
+			<div class="request-value" ng-switch-when="normal" ng-bind-html="items.statement" ></div>
+			<textarea ckeditor ng-model="items.statement" ng-switch-when="edit"></textarea>
+		</div>
+		
+	</div>
+
+</div>
