@@ -38,5 +38,5 @@
 
 网站连接
 ------
-[第一校招网](http://www.1xiaozhao.com)
+[第一校招网](http://www.xiaozhao.com)
 
