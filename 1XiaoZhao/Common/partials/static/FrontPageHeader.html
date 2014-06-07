@@ -1,0 +1,78 @@
+<div ng-controller="FrontPageHeader">
+  <link ng-href={{ResourceURLs.css}} rel="stylesheet">
+
+  <header>
+    <div class="container">
+    <div class="row-fluid" id="top-header">
+      <div class="span6">
+        <a href="#/index"><img class="pull-left" ng-src={{ResourceURLs.TopLogo}}></a>
+        <h5 id="slogan" class="pull-left">搭梦想的桥，建生活的路</h5>
+      </div>
+      <div class="span6 jiathis_style">
+        <ul id="statics" class="nav nav-pills pull-right">
+          <li ng-hide="login"><a href="#/login">登录</a></li>
+          <li ng-hide="login"><a href="#/register">注册</a></li>
+          <li ng-show="login" id="welcome">欢迎您 {{ loginName }}</li>
+          <li ng-switch on="manage">
+            <a ng-switch-when="company" href="#/Cmanagement">管理</a>
+            <a ng-switch-when="student" href="#/Smanagement">管理</a>
+            <a ng-switch-default ng-show="false"></a>
+          </li>
+          <li ng-show="admin"><a href="#/Amanagement">管理</a></li>
+          <li ng-show="login"><a href="" ng-click="logoff()">注销</a></li>
+          <li id="share">分享</li>
+          <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank" style="margin:9px 0px;"></a>
+        </ul>
+        <div class="span12" style="padding:0px 10px;">
+          <a ng-show="login && !enrolled" class="pull-right" href="#myModal" role="button" data-toggle="modal">报名招聘会</a>
+          <b ng-show="login && enrolled" class="pull-right" style="color:#666">已报名招聘会</b>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container" style="width:940px;">
+        <ul class="nav">
+          <li ng-class="{active: selectedRow == 0}"><a href="#/index">首页</a></li>
+          <li ng-class="{active: selectedRow == 2}"><a href="#/NewsList">校园招聘</a></li>
+          <li ng-class="{active: selectedRow == 1}"><a href="#/CompanyList">企业一览</a></li>
+          <li ng-class="{active: selectedRow == 3}"><a href="#/about">关于我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="myModalLabel">确认报名</h3>
+    </div>
+    <div class="modal-body">
+      <div class="pull-left" style="margin-left:30px;">
+        <h5 style="font-size:15px;">欢迎关注官方微信：diyixiaozhao</h5>
+        <p>报名成功后，请留意活动消息推送</p>
+        <p>并通过微信互动获取招聘会入场券</p>
+        <p>感谢您的参与~(@^_^@)~</p>
+      </div>
+      <img class="pull-left" ng-src={{ResourceURLs.WX}} style="margin-left:80px; width:28%;" />
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-primary" ng-click="enroll()" data-dismiss="modal" aria-hidden="true">报名</button>
+      <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+    </div>
+  </div>
+
+  <script type="text/javascript" >
+  var jiathis_config={
+    siteNum:5,
+    sm:"tsina,tqq,qzone,weixin,renren",
+    summary:"",
+    shortUrl:false,
+    hideMore:false
+  }
+  </script>
+  <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+</div>

@@ -1,0 +1,24 @@
+.headline{
+  float: left;
+  font-family: 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+  font-size: 20px;
+  color: #292e8a;
+  border-left: 8px solid #292e8a;
+}
+
+.subhead{
+  float: left;
+  margin-left: 10px;
+  font-family: 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+  font-size: 16px;
+  color: #fe7302;
+}
+
+.detail{
+  margin-bottom: 20px;
+  font-family: 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+}
+
+.detail p{
+  text-indent: 1em;
+}

@@ -1,0 +1,85 @@
+.Jobdetail {
+	padding-bottom: 12px;
+	background: #fafafa;
+}
+
+.btn{
+	color: #fff;
+	text-shadow: none;
+	background-color: #292e8a;
+	background-image: none;
+	border: 0px;
+}
+
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #20246a;
+}
+
+.Jobtitle{
+	float: left;
+	max-width: 440px;
+	margin: -6px 0 10px 20px;
+	padding: 6px 20px;
+	color: #fff;
+	background: #292e8a;
+}
+
+.Jobtitle em{
+	position: absolute;
+	margin: -6px 0 0 -26px;
+	width: 6px;
+	height: 8px;
+	background: url(../img/title_arrow.png) no-repeat;
+}
+
+.Jobtitle div {
+	margin: 0 0 10px -5px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+.Jobtitle p{
+	margin-left: 10px;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+.Jobrequest{
+	padding: 10px 30px;
+	color: #666;
+	clear:both;
+}
+
+.job_statement {
+	padding:20px 20px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.statement_title{
+	font-size: 17px;
+	line-height: 17px;
+	border-left: 5px solid #292e8a;
+}
+
+.Ctop{
+	margin-bottom: 10px;
+}
+
+.img_box{
+	padding: 0px 30px;
+	width:160px;
+	height:160px;
+}
+
+.Cname{
+	color: #666;
+	font-size: 13px;	
+}
+
+.Cinfo dd{
+	margin-top: 5px;
+	line-height: 16px;
+}

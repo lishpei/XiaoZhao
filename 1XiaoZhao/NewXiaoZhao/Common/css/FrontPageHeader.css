@@ -1,0 +1,57 @@
+#top-header{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#statics{
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 1;
+	line-height: 20px;
+	margin-bottom: 6px;
+}
+
+#statics a{
+	text-decoration: none;
+	color: #666;
+}
+
+#slogan{
+	padding-top: 30px;
+	color: #666;
+	font-family: 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+	font-size: 15px;
+}
+
+#welcome{
+	padding: 5px 12px 5px 12px;
+	margin: 2px 2px 2px 0px;
+}
+
+#share{
+	padding: 5px 0px 5px 12px;
+	margin: 2px 2px 2px 0px;
+}
+
+.navbar{
+	margin-bottom:0px;
+	min-width:940px;
+}
+
+.navbar-inner{
+	font-family: 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+	font-size: 15px;
+	background: #f6f6f6;
+	border: 0px;
+	border-top: 4px solid #292e8a;
+	border-bottom: 4px solid #292e8a;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.modal-footer{
+	background-color: inherit;
+	border-top: 0px;
+}

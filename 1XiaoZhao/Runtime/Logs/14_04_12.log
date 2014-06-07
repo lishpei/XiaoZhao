@@ -1,0 +1,244 @@
+[ 2014-04-12T11:34:50+08:00 ] 0.0.0.0 /NewXiaoZhao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in D:\PHPlearn\NewXiaoZhao\Lib\Action\IndexAction.class.php on line 6 and defined D:\PHPlearn\NewXiaoZhao\ThinkPHP\Lib\Core\Action.class.php 第 107 行.
+NOTIC: [8] Undefined variable: content D:\PHPlearn\NewXiaoZhao\ThinkPHP\Lib\Core\Action.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027303s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001105s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004814s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2014-04-12T11:34:51+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Job/TopJob
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.016418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016774s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.283674s ]
+SQL: SELECT `jid`,`cid`,`name`,`resumenum`,`size`,`money`,`location` FROM `think_singlejob` ORDER BY resumenum desc LIMIT 5   [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.295111s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.154331s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.090909s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000487s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000597s ]
+
+[ 2014-04-12T11:34:51+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Company/TopCompany
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015955s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.006325s ]
+SQL: SELECT `cid`,`name`,`kind`,`size`,`times` FROM `think_company` WHERE ( `status` = 1 ) ORDER BY times desc LIMIT 5   [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.005381s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 9 ) LIMIT 1   [ RunTime:0.001144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.000817s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 16 ) LIMIT 1   [ RunTime:0.001343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 8 ) LIMIT 1   [ RunTime:0.001167s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 10 ) LIMIT 1   [ RunTime:0.001149s ]
+
+[ 2014-04-12T11:34:51+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001125s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.005743s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.044697s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000398s ]
+
+[ 2014-04-12T11:42:32+08:00 ] 0.0.0.0 /NewXiaoZhao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in D:\PHPlearn\NewXiaoZhao\Lib\Action\IndexAction.class.php on line 6 and defined D:\PHPlearn\NewXiaoZhao\ThinkPHP\Lib\Core\Action.class.php 第 107 行.
+NOTIC: [8] Undefined variable: content D:\PHPlearn\NewXiaoZhao\ThinkPHP\Lib\Core\Action.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010341s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000758s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000730s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2014-04-12T11:42:34+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Company/TopCompany
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.007056s ]
+SQL: SELECT `cid`,`name`,`kind`,`size`,`times` FROM `think_company` WHERE ( `status` = 1 ) ORDER BY times desc LIMIT 5   [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.007032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 9 ) LIMIT 1   [ RunTime:0.000832s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 16 ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 8 ) LIMIT 1   [ RunTime:0.000542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 10 ) LIMIT 1   [ RunTime:0.000314s ]
+
+[ 2014-04-12T11:42:34+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Job/TopJob
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.005355s ]
+SQL: SELECT `jid`,`cid`,`name`,`resumenum`,`size`,`money`,`location` FROM `think_singlejob` ORDER BY resumenum desc LIMIT 5   [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.006825s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000784s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000803s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000865s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.001010s ]
+
+[ 2014-04-12T11:42:34+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001065s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.005233s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.004208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000558s ]
+
+[ 2014-04-12T11:42:37+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Job/TopJob
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.006317s ]
+SQL: SELECT `jid`,`cid`,`name`,`resumenum`,`size`,`money`,`location` FROM `think_singlejob` ORDER BY resumenum desc LIMIT 5   [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.006188s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.001023s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000860s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000640s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000596s ]
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000508s ]
+
+[ 2014-04-12T11:42:37+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Company/TopCompany
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001679s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.004439s ]
+SQL: SELECT `cid`,`name`,`kind`,`size`,`times` FROM `think_company` WHERE ( `status` = 1 ) ORDER BY times desc LIMIT 5   [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.004780s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 9 ) LIMIT 1   [ RunTime:0.001073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.001069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 16 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 8 ) LIMIT 1   [ RunTime:0.000919s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 10 ) LIMIT 1   [ RunTime:0.001526s ]
+
+[ 2014-04-12T11:42:37+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001840s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002099s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.006168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.005124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000549s ]
+
+[ 2014-04-12T11:42:40+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002033s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002307s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.004177s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.004409s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000385s ]
+
+[ 2014-04-12T11:42:41+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Company/companyPageCount
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.007497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.001020s ]
+
+[ 2014-04-12T11:42:41+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Company/companyList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001792s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002007s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.007218s ]
+SQL: SELECT `cid`,`name`,`statement`,`avtor` FROM `think_company` ORDER BY cid desc LIMIT 0,9   [ RunTime:0.001041s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.007193s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='18' )  [ RunTime:0.001187s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='17' )  [ RunTime:0.000733s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='16' )  [ RunTime:0.000614s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='13' )  [ RunTime:0.000460s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='12' )  [ RunTime:0.000317s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='11' )  [ RunTime:0.000285s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='10' )  [ RunTime:0.000298s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='9' )  [ RunTime:0.000434s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='8' )  [ RunTime:0.001099s ]
+
+[ 2014-04-12T11:42:41+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Company/companyList
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.006258s ]
+SQL: SELECT `cid`,`name`,`statement`,`avtor` FROM `think_company` ORDER BY cid desc LIMIT 0,9   [ RunTime:0.001049s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.006028s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='18' )  [ RunTime:0.000740s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='17' )  [ RunTime:0.000482s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='16' )  [ RunTime:0.000529s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='13' )  [ RunTime:0.000591s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='12' )  [ RunTime:0.000477s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='11' )  [ RunTime:0.000322s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='10' )  [ RunTime:0.000320s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='9' )  [ RunTime:0.000598s ]
+SQL: SELECT `jid`,`name`,`size` FROM `think_singlejob` WHERE ( 1=1 AND cid='8' )  [ RunTime:0.000577s ]
+
+[ 2014-04-12T11:42:42+08:00 ] 0.0.0.0 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002260s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.006194s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.004201s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000515s ]
+

@@ -1,0 +1,31 @@
+<div class="container">
+	<link ng-href={{ResourceURLs.css}} rel="stylesheet">
+
+	<div ng-include="ResourceURLs.header"></div>
+
+	<div class="row-fluid">
+
+		<div class="span2">
+			<div class="well">
+				<ul class="nav nav-pills nav-stacked list">
+
+		            <li >
+		              <a href="" ng-click="setTemplate('checkCompany')" ><i class="fa fa-home"></i>   审核企业</a>
+		            </li>
+
+		            <li ng-show="adminManagement">
+		              <a href="" ng-click="setTemplate('adminManage')" ><i class="fa fa-home"></i>   管理员管理</a>
+		            </li>
+
+          		</ul>   
+			</div>
+		</div>
+
+		<div class="span10">
+			<div ng-include="template.url"></div>
+		</div>
+	</div>
+
+	<div ng-include="ResourceURLs.footer"></div>
+
+</div>
