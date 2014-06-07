@@ -1,0 +1,91 @@
+<div ng-controller="ResumeEducation" >
+
+	<div class="row-fluid title">
+		<div class="span6">
+			<h4>教育信息</h4>
+		</div>
+		<div class="span6">
+			<button class="btn btn-info pull-right" ng-click="add()" ng-show="status"><i class="fa fa-plus"></i> 添加</button>
+			<button class="btn btn-info pull-right" ng-click="save(Exp)" ng-show="_save"><i class="fa fa-floppy-o"></i>保存</button>
+			<button class="btn btn-info pull-right" ng-click="UpLoadChange(Exp)" ng-show="_change"><i class="fa fa-floppy-o"></i>修改</button>
+		</div>
+	</div>
+	<div ng-hide="status">
+		<form class="top">
+			<fieldset>
+
+				<div class="row-fluid top">
+					<div class="span2">
+						<p class="pull-right"><strong>学校类型</strong></p>
+					</div>
+					<div class="span8 offset2">
+						<select ng-model="Exp.schoolType">
+						  <option>小学</option>
+						  <option>初中</option>
+						  <option>高中</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row-fluid top">
+					<div class="span2">
+						<p class="pull-right"><strong>入学日期</strong></p>
+					</div>
+					<div class="span8 offset2">
+						<datepicker class="offset1" ng-model='Exp.startDate' disable-timepicker='true' icon-class="fa fa-calendar"></datepicker>
+					</div>
+				</div>
+
+				<div class="row-fluid top">
+					<div class="span2">
+						<p class="pull-right"><strong>学校名称</strong></p>
+					</div>
+					<div class="span8 offset2">
+						<input type="text" placeholder="专业班级" ng-model="Exp.schoolName" >
+					</div>
+				</div>
+
+				<div class="row-fluid top">
+					<div class="span2">
+						<p class="pull-right"><strong>专业 班级</strong></p>
+					</div>
+					<div class="span8 offset2">
+						<input type="text" placeholder="专业班级" ng-model="Exp.class">
+					</div>
+				</div>
+
+			</fieldset>
+		</form>
+	</div>
+
+	<table class="table table-bordered top">
+
+	  <thead>
+	    <tr>
+	      <th>#</th>
+	      <th>学校类型</th>
+	      <th>学校名称</th>
+	      <th>入学日期</th>
+	      <th>专业班级</th>
+	      <th>操作</th>
+	    </tr>
+	  </thead>
+
+	  <tbody>
+	    <tr ng-repeat="education in educationRecord">
+	      <td>{{$index}}</td>
+	      <td>{{education.schoolType}}</td>
+	      <td>{{education.schoolName}}</td>
+	      <td>{{education.startDate}}</td>
+	      <td>{{education.class}}</td>
+	      <td>
+	      	<div class="btn-group">
+			  <button class="btn btn-danger btn-mini" ng-click="_delete(education.eid)" >删</button>
+			  <button class="btn btn-info btn-mini"   ng-click="change(education)" >改</button>
+			</div>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table>
+
+</div>

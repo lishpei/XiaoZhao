@@ -226,3 +226,19 @@ SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ R
 NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
 SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000068s ]
 
+[ 2014-06-04T19:42:59+08:00 ] 127.0.0.1 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.000983s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.000526s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000087s ]
+
