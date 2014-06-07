@@ -1,0 +1,73 @@
+.companyUL{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.companyUL li{
+	float: left;
+	padding: 13px 11px;
+	margin: 0 10px 20px 0;
+	width:190px;
+	background: #fafafa;
+	border: 2px solid #fff;
+	border-bottom: none;
+}
+
+.companyLogo{
+	width:190px;
+	height:190px;
+}
+
+.jobs{
+	margin-top:10px;
+	height: 75px;
+	overflow: hidden;
+	border-bottom: 1px dashed #e6e7e7;
+}
+
+.job{
+	margin-top:5px;
+}
+
+.intro p{
+	margin-top: 10px;
+	text-indent: 1em;
+}
+
+.btn{
+	color: #fff;
+	text-shadow: none;
+	background-color: #292e8a;
+	background-image: none;
+	border: 0px;
+}
+
+.btn:hover, .btn:focus {
+	color: #fff;
+	background-color: #20246a;
+}
+
+.clear{
+	clear:both;
+}
+
+.leftBar{
+	border-top: 3px solid #747778;
+	border-bottom: 3px solid #dadada;
+	background: url(../img/AD_bg.jpg) repeat;
+	padding: 25px 16px 15px 16px;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+.text{
+	font-size: 20px;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.wxlogo{
+	background: #fafafa;
+	padding: 20px;
+}

@@ -1,0 +1,68 @@
+<div ng-controller="Job">
+	<link ng-href={{ResourceURLs.css}} rel="stylesheet">
+
+	<div ng-include="ResourceURLs.header"></div>
+
+	<div class="container" style="margin-top:30px;">
+		<div class="row-fluid">
+			<div class="span9">
+				<div class="Jobdetail">
+					<h4 class="Jobtitle">
+						<em></em>
+						<div>{{company.name}}</div>
+						<p>{{job.name}}</p>
+					</h4>
+					<div class="btn-group pull-right" style="margin:10px;">
+						<button class="btn btn-mini" ng-click="postResume(job.jid)" ng-disabled="companyLogin">投递简历</button>
+						<a href="#/CompanyList" class="btn btn-mini">返回列表</a>
+					</div>
+					<div class="Jobrequest">
+						<ul class="inline">
+							<li>{{job.location}}</li>
+							<li>{{job.money}}</li>
+							<li>招聘 {{job.size}} 人</li>
+							<li>{{ job.create_time }} 发布</li>
+						</ul>
+					</div>
+
+					<div class="job_statement">
+						<h5 class="statement_title">&nbsp;职位描述</h5>
+							<div ng-bind-html="job.statement">
+								{{job.statement}}
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="span3">
+				<div class="Ctop">
+					<div class="nailthumb-container img_box" nailthumb>
+						<a ng-href={{"#/Cpage/"+company.cid}}><img ng-src={{company.avtor}} /></a>
+					</div>
+					<div class="Cname">
+						<p><b>{{company.name}}</b></p>
+						<span ng-show="company.status == 1" class="label label-info">认证公司</span>
+					</div>
+				</div>
+
+				<div class="Cinfo">
+					<dl >
+						<dt>企业类型</dt>
+						<dd>{{company.kind}}</dd>
+					</dl>
+					<dl >
+						<dt>企业规模</dt>
+						<dd>{{company.size}}</dd>
+					</dl>
+					<dl>
+						<dt>入驻时间</dt>
+						<dd>{{company.create_time}}</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div ng-include="ResourceURLs.footer"></div>
+
+</div>

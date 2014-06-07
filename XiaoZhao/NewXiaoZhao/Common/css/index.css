@@ -1,0 +1,19 @@
+.title{
+	border-bottom:4px solid #292e8a;
+	padding-bottom: 8px;
+}
+
+.inner-title{
+	border-bottom: 1px dashed #292e8a;
+	background: #f6f6f6;
+	padding: 15px 20px;
+}
+
+#pic{
+	margin-bottom: 15px;
+}
+
+#company{
+	margin-bottom: 15px;
+}
+

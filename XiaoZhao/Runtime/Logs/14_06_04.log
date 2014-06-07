@@ -1,0 +1,228 @@
+[ 2014-06-04T19:35:52+08:00 ] 127.0.0.1 /NewXiaoZhao/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2] Missing argument 1 for Action::show(), called in /var/www/NewXiaoZhao/Lib/Action/IndexAction.class.php on line 6 and defined /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Action.class.php 第 107 行.
+NOTIC: [8] Undefined variable: content /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Action.class.php 第 108 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 273 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 168 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 399 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 404 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 197 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Template/ThinkTemplate.class.php 第 137 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023984s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000717s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000581s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000333s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2014-06-04T19:35:53+08:00 ] 127.0.0.1 /NewXiaoZhao/index.php/Company/TopCompany
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001416s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001556s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.001004s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `cid`,`name`,`kind`,`size`,`times` FROM `think_company` WHERE ( `status` = 1 ) ORDER BY times desc LIMIT 5   [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.000860s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 9 ) LIMIT 1   [ RunTime:0.000452s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.000270s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 16 ) LIMIT 1   [ RunTime:0.000247s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 8 ) LIMIT 1   [ RunTime:0.000311s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 10 ) LIMIT 1   [ RunTime:0.000377s ]
+
+[ 2014-06-04T19:35:53+08:00 ] 127.0.0.1 /NewXiaoZhao/index.php/Job/TopJob
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000148s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.000939s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `jid`,`cid`,`name`,`resumenum`,`size`,`money`,`location` FROM `think_singlejob` ORDER BY resumenum desc LIMIT 5   [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.001002s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000279s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000157s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000145s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000060s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000054s ]
+
+[ 2014-06-04T19:35:53+08:00 ] 127.0.0.1 /NewXiaoZhao/index.php/Index/count
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000105s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.001176s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_company` LIMIT 1   [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `think_student` [ RunTime:0.000563s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_student` LIMIT 1   [ RunTime:0.000214s ]
+
+[ 2014-06-04T19:35:53+08:00 ] 127.0.0.1 /NewXiaoZhao/index.php/Company/TopCompany
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.000795s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `cid`,`name`,`kind`,`size`,`times` FROM `think_company` WHERE ( `status` = 1 ) ORDER BY times desc LIMIT 5   [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.000678s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 9 ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 4 ) LIMIT 1   [ RunTime:0.000086s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 16 ) LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 8 ) LIMIT 1   [ RunTime:0.000066s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `think_singlejob` WHERE ( `cid` = 10 ) LIMIT 1   [ RunTime:0.000085s ]
+
+[ 2014-06-04T19:35:53+08:00 ] 127.0.0.1 /NewXiaoZhao/index.php/Job/TopJob
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000101s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Dispatcher.class.php 第 132 行.
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `think_singlejob` [ RunTime:0.002316s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `jid`,`cid`,`name`,`resumenum`,`size`,`money`,`location` FROM `think_singlejob` ORDER BY resumenum desc LIMIT 5   [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `think_company` [ RunTime:0.000922s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='4' ) LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000085s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000115s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='16' ) LIMIT 1   [ RunTime:0.000081s ]
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /var/www/NewXiaoZhao/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT `name` FROM `think_company` WHERE ( 1=1 AND cid='9' ) LIMIT 1   [ RunTime:0.000068s ]
+

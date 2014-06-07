@@ -1,0 +1,90 @@
+.panel {
+	margin-bottom: 20px;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	border-color: #bce8f1;
+}
+
+.panel-heading {
+	padding: 10px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	color: #3a87ad;
+	background-color: #d9edf7;
+}
+
+.top{
+	margin-top: 10px;
+}
+
+.job {
+	margin: 20px ;
+	padding: 10px;
+	border-left: 3px solid #eee;
+	background-color: #f4f8fa;
+	border-color: #bce8f1;
+}
+
+.job h4 {
+	color: #34789a;
+}
+
+.job button {
+	margin-top:10px;
+}
+
+.back{
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.box{
+	margin-top: 10px;
+	color: #777;
+	clear:both;
+	font-weight: bolder;
+}
+
+.Ctitle{
+	max-width: 440px;
+	float: left;
+	color: #fff;
+	font-size: 30px;
+	line-height: 38px;
+	background: #428bca;
+	margin: -6px 0 10px 20px;
+	padding: 6px 20px;
+}
+
+.Ctitle em{
+	background: url(../img/title_arrow.png) no-repeat;
+	width: 6px;
+	height: 8px;
+	position: absolute;
+	margin: -6px 0 0 -26px;
+}
+
+.c_detail {
+	padding-bottom: 12px;
+	background: #fafafa;
+	margin-top: 6px;
+}
+
+.c_intro {
+	padding:15px;
+	font-size: 18px;
+	text-indent: 2em;
+	line-height: 30px;
+	word-wrap: break-word;
+	clear:both;
+}
+
+.jobs_info{
+	clear:both;
+	padding:10px;
+}

@@ -1,0 +1,55 @@
+<div class="container">
+	<link ng-href={{ResourceURLs.css}} rel="stylesheet">
+
+	<div ng-include="ResourceURLs.header"></div>
+
+	<div class="row-fluid">
+
+		<div class="span2">
+			<div class="well">
+				<ul class="nav nav-pills nav-stacked list">
+
+					<li>
+		              <a href="" ng-click="setTemplate('companyPage')" ><i class="fa fa-folder-open"></i>    企业主页</a>
+		            </li>
+
+		            <li >
+		              <a href="" ng-click="setTemplate('jobList')" ><i class="fa fa-home"></i>   职位浏览</a>
+		            </li>
+
+		            <li >
+		              <a href="" ng-click="setTemplate('createjob')" ><i class="fa fa-home"></i>   创建职位</a>
+		            </li>
+
+		            <li>
+		              <a href="" ng-click="setTemplate('resumeList')" ><i class="fa fa-folder-open"></i>    简历管理</a>
+		            </li>
+
+		            <li>
+		              <a href="" ng-click="setTemplate('companyAuth')" ><i class="fa fa-folder-open"></i>    企业认证</a>
+		            </li>
+
+          		</ul>   
+			</div>
+		</div>
+
+		<div class="span10">
+
+			<div class="breadcrumb" id="right-top" ng-switch on="status">
+				<span>{{template.CHname}}</span>
+				<span class="pull-right" ng-switch-when="list"><a href="#/index">返回首页</a></span>
+				<span class="pull-right" ng-switch-when="single"><a href="" ng-click="backToList()" >返回列表</a></span>
+			</div>
+
+			<div class="alert alert-error" ng-show="unAuth">
+				请您尽快前往<strong>企业认证</strong>模块上传贵公司相关资质材料照片（例如：营业执照）,否则您将无法发布职位，求职者也无法在企业列表中看到您的企业
+			</div>
+
+			<div ng-include="template.url"></div>
+
+		</div>
+	</div>
+
+	<div ng-include="ResourceURLs.footer"></div>
+
+</div>

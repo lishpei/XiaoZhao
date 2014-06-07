@@ -1,0 +1,24 @@
+#top-header{
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-bottom: 57px;
+	color: #666;
+}
+
+.nav-pills{
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+	opacity: 1;
+	line-height: 20px;
+}
+
+.nav-pills a{
+	text-decoration: none;
+	color: #666;
+}
+
+#welcome{
+	padding: 5px 12px 5px 12px;
+	margin: 2px 2px 2px 0px;
+}
